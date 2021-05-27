@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="12dp">
+
+    <TextView
+        android:id="@+id/txtID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="@string/id"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/txtTextoRecordatorio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="@string/texto_de_ejemplo"
+        android:layout_below="@id/txtID"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/txtFecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:text="@string/fecha_del_texto"
+        android:textColor="@color/black"
+        android:layout_marginTop="8dp"
+        android:gravity="end"
+        android:layout_below="@id/txtTextoRecordatorio"/>
+
+    <ImageButton
+        android:id="@+id/btnEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:paddingTop="20dp"
+        android:layout_below="@id/txtFecha"
+        android:background="@color/white"
+        android:src="@drawable/baseline_edit_black_18dp"/>
+
+    <ImageButton
+        android:id="@+id/btnDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:paddingTop="20dp"
+        android:layout_below="@id/txtFecha"
+        android:background="@color/white"
+        android:src="@drawable/baseline_delete_black_18dp"/>
+</RelativeLayout>

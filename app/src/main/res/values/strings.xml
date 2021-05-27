@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SenseMe</string>
+    <string name="title">¿Cómo te sientes hoy?</string>
+    <string name="guardar">Guardar</string>
+    <string name="me_siento">Me siento...</string>
+    <string name="ver_memorias">Ver memorias</string>
+    <string name="texto_de_ejemplo">texto de ejemplo</string>
+    <string name="fecha_del_texto">fecha del texto</string>
+    <string name="id">ID</string>
+    <string name="editar_texto">Editar texto</string>
+    <string name="actualizar">Actualizar</string>
+</resources>
